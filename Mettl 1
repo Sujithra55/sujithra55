@@ -1,1 +1,11 @@
-
+import java.io.*;
+import java.util.*;
+class UsermainCode
+{
+public intisEven(int input1){
+if(input 1%2==0)
+return 2;
+else
+return 1;
+}
+}
