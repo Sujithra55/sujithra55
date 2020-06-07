@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+classUserMainCode
+{
+public int countEvens(int input1,int input2,int input3,int input4,int input5)
+{
+int oddNumbers=0;
+int evenNumbers=0;
+if(countEvens%2==1)
+{
+oddNumbers++;
+return oddNumbers;
+}
+else
+evenNumbers++;
+}
+}
