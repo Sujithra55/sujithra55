@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+class UserMainCode
+{
+public int countEvenorOdd(int input 1,int input2,int input3,int input4,int input5,string input6)
+{
+int even=0,odd=0;
+int size=6,i;
+for(int i=0;i<size;i++)
+{
+if(input1[i]%2==0){
+even++
+}
+else{
+odd++
+}
+}
+}
+}
