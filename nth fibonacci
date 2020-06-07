@@ -1,0 +1,18 @@
+import java.io.*;
+impoet java.util.*;
+class UserMainCode
+{
+public long nthFibonacci(int input1){
+int a=0;
+int b=1;
+int c=0;
+int d=3;
+while(d<=input){
+c=a+b;
+a=b;
+b=c;
+d++;
+}
+return c;
+}
+}
