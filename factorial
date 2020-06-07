@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+class UserMainCode
+{
+public int factorial(int input1 )
+{
+int fact=1;
+int i;
+for(i=2;i<=n;i++){
+fact=fact*i;
+return fact;
+}
+}
+}
