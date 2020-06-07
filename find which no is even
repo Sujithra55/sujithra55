@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+class UsermainCode
+{
+public intcountEvens(int input1,int input2,int input3,int input4,int input5)
+{
+int[] a={input1, input2, input3, input4, input5};
+int size;
+inti,evenCount=0;
+
+int[] a=newInt[size];
+for(i=0;i<size;i++)
+{
+if(a[i]%2==0)
+{
+system.out.print(a[i]+" ");
+evenCount++;
+
+system.out.println("no of even no:" +evenCount);
+}
+return evencount;
+}
+}
+}
