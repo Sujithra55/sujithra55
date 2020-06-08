@@ -1,0 +1,15 @@
+import java.io.*;
+import java .util.*;
+Class UserMainCode{
+Public stringSecondWordUppercase(string input1)
+{
+string s[]=input1.split("");
+if(s.length==1)
+{
+return "LESS";
+String s1=s[1];
+s1=s1.Uppercase();
+return s1;
+}
+}
+}
