@@ -1,0 +1,95 @@
+import java.io.*;
+import java.util.*;
+class UserMainCode{
+public class Result
+{
+public final string output1;
+public final string output2;
+public final string output 3;
+public Result(string out1,string out2,string out3){
+output1=out1;
+output2=out2;
+public Result encodeThreeStrings(string input1,string input2,string input3){
+string f1="", f2="", f3="", m1="", m2="",  m3="", l1="", l2="", l3="";
+string out1="",out2="",out3="";
+int d=0;
+if(input1.length()%3==0)
+{
+d=input1.length()/3;
+f1=input1.substring(0,d);
+m1=input1.substring(d,2*d);
+l1=input1.substring(2*d);
+}
+else if(input1.length()%3==1)
+{
+d=input1.length()/3;
+f1=input1.substring(0,d);
+m1=input1.substring(d,2*d+1);
+l1=input1.substring(2*d)+1);
+}
+else{
+
+d=input1.length()/3;
+f1=input1.substring(0,d+1);
+m1=input1.substring(d+1,2*d+1);
+l1=input1.substring(2*d)+1);
+}
+if(input2.length()%3==0)
+{
+d=input2.length()/3;
+f2=input2.substring(0,d);
+m2=input1.substring(d,2*d);
+l2=input1.substring(2*d);
+}
+else if(input2.length()%3==1)
+{
+d=input2.length()/3;
+f2=input2.substring(0,d);
+m2=input2.substring(d,2*d+1);
+l2=input2.substring(2*d)+1);
+}
+else{
+
+d=input2.length()/3;
+f2=input2.substring(0,d+1);
+m2=input2.substring(d+1,2*d+1);
+l2=input2.substring(2*d)+1);
+}
+if(input3.length()%3==0)
+{
+d=input3.length()/3;
+f3=input3.substring(0,d);
+m3=input3.substring(d,2*d);
+l3=input3.substring(2*d);
+}
+else if(input3.length()%3==1)
+{
+d=input3.length()/3;
+f3=input3.substring(0,d);
+m3=input3.substring(d,2*d+1);
+l3=input3.substring(2*d)+1);
+}
+else{
+
+d=input3.length()/3;
+f3=input3.substring(0,d+1);
+m3=input3.substring(d+1,2*d+1);'
+l3=input3.substring(2*d)+1);
+}
+out=f1+f2+f3;
+out2=m1+m2+m3;
+out3=l1+l2+l3;
+string out3_="";
+for(int k=0;k<out3.length();k++){
+if(character.isUppercase(out3.charA(k))){
+out3_=out3_+string.valueOf(character.toLowercase(out3.charAt(k)));
+}
+else{
+out3_=out3_+string.valueOf(character.toUppercase(out3.charAt(k)));
+}
+}
+return new Result(out1,out2,out3_);
+}
+}
+
+
